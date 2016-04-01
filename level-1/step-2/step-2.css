@@ -3,18 +3,30 @@
 
 .profile-image-container {
     background: #96F0F2;
+    height: 30%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Step-2.2  One option to align this container to the center would be to give it a margin-left: auto; and margin-right: auto; */
 
 .profile-links-container {
     background: #12F3F7;
+    height: 50%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
 }
 
 /* Step-2.3  You can either use float left or position absolute to get this element to in the desired location */
 
 .logo-container {
     background: #4F4949;
+    height: 75px;
+    width: 30%;
+    float: left;
 }
 
 
@@ -22,7 +34,7 @@
 
 .menu-container {
     background: #4F4949;
+    height: 75px;
+    width: 5%;
+    float: right;
 }
-
-
-
